@@ -1,0 +1,52 @@
+.container {
+       	animation: movement 6s infinite;
+}
+
+.centerTable {
+	margin: 0px auto;
+	text-align: center;
+}
+@keyframes movement
+{ 
+	from {
+		margin-left: 0%;
+	}
+       	to {
+		margin-left: 74%;
+	}
+}
+
+body
+{
+	background-image: url(../utileria/tundra.jpeg);
+        background-attachment: fixed;
+	background-size: 100% 100%;
+        background-repeat: no-repeat; 
+	color: #e9e0d1;
+}
+
+h1
+{
+	color: #e9e0d1;
+}
+
+h1 span
+{
+	background-color: #6c4681;
+}
+
+tr
+{
+	background-color: #a9a9a9	
+}
+
+ /*
+  * Color del cabello de yuri: #6c4681
+  * Color de la camisa blanca de yuri: #e9e0d1
+        background-attachment: fixed;
+        background-position: 100% 100%;
+        background-repeat: no-repeat; 
+	Color de los pantalones de yuri: #24190c
+	gris para la primera fila: #696969
+	gris para las demás filas: #a9a9a9
+  */
